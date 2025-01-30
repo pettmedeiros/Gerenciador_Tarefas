@@ -25,7 +25,7 @@ public class GerenciadorTarefas {
 	} 
 
 	public List<Tarefa> listarTarefas() {
-		return new ArrayList<>();
+		return new ArrayList<>(tarefas);
 	}
 	
 	public Tarefa buscartarefaPorId(String id) {
